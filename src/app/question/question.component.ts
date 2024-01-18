@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { QuizService } from '../quiz.service';
 import { Quiz } from '../models/quiz';
-import { relative } from 'path';
 
 @Component({
   selector: 'app-question',
@@ -26,6 +25,8 @@ export class QuestionComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((pm) => {
+      this.showAnswer=false;
+      this.hintsCount=0;
       const id = pm.get('id');
       if (!id || !Number(id)) return;
       this.quiz = this.quizService.getQuestion(+id);
