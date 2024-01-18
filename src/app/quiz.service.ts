@@ -27,4 +27,10 @@ export class QuizService {
     quiz.id = id;
     return quiz;
   }
+
+  getRelatedQuestion(id:number){
+    const relatedQuizesIndexs:number[] = relations[id.toString() as keyof typeof relations]||[];
+    const relatedQuizes = quizes.filter(q=>relatedQuizesIndexs.includes(q.id));
+    return relatedQuizes;
+  }
 }

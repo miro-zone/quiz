@@ -10,7 +10,11 @@
     >
       Answer
     </button>
-    <button (click)="hintsCount=hintsCount+1" class="btn btn-warning" [disabled]="!isAvailableHint()">
+    <button
+      (click)="hintsCount = hintsCount + 1"
+      class="btn btn-warning"
+      [disabled]="!isAvailableHint()"
+    >
       Hints
     </button>
   </div>
@@ -21,11 +25,12 @@
     [ngStyle]="{ height: '20rem' }"
   >
     @if(hintsCount){
-    <div class="p-3">@for (hint of hints; track $index) {
-      <p>{{hint}}</p>   
-    }</div>
-    }
-     @if(showAnswer){
+    <div class="p-3">
+      @for (hint of hints; track $index) {
+      <p>{{ hint }}</p>
+      }
+    </div>
+    } @if(showAnswer){
     <p class="fs-4">{{ quiz?.answer }}</p>
     }
     <button (click)="onNextQuestion()" class="btn btn-outline-primary">
@@ -36,10 +41,12 @@
   <!-- Related links area -->
   <footer>
     <h2 class="text-secondary">Related questions</h2>
-    <div class="row">
-      <button class="btn col-md-3 col-xs-12">question1</button>
-      <button class="btn col-md-3 col-xs-12">question2</button>
-      <button class="btn col-md-3 col-xs-12">question3</button>
+    @for (rq of relatedQuizes; track $index) {
+    <div class="d-flex flex-column">
+      <a class="mb-2" [routerLink]="'/'+rq.id?.toString()">{{
+        rq.question.split(" ").slice(0, 5).join(" ")
+      }} ...</a>
     </div>
+    }
   </footer>
 </div>

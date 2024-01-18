@@ -15,12 +15,12 @@ import { relative } from 'path';
 export class QuestionComponent implements OnInit {
   quiz?: Quiz;
 
-  showAnswer=false;
-  hintsCount=0;
-
+  showAnswer = false;
+  hintsCount = 0;
+  relatedQuizes: Quiz[] = [];
   constructor(
     private readonly route: ActivatedRoute,
-    private readonly router:Router,
+    private readonly router: Router,
     private readonly quizService: QuizService
   ) {}
 
@@ -29,23 +29,25 @@ export class QuestionComponent implements OnInit {
       const id = pm.get('id');
       if (!id || !Number(id)) return;
       this.quiz = this.quizService.getQuestion(+id);
+      if (this.quiz?.id)
+        this.relatedQuizes = this.quizService.getRelatedQuestion(this.quiz.id);
     });
   }
 
-  get hints():string[]{
+  get hints(): string[] {
     if (!this.quiz) return [];
-    return this.quiz.hints.slice(0,this.hintsCount);
+    return this.quiz.hints.slice(0, this.hintsCount);
   }
 
-  isAvailableHint(){
-    if(!this.quiz) return;
-    const {hints} = this.quiz;
-    return hints.length && this.hintsCount<hints.length; 
+  isAvailableHint() {
+    if (!this.quiz) return;
+    const { hints } = this.quiz;
+    return hints.length && this.hintsCount < hints.length;
   }
 
-  onNextQuestion(){
-    this.showAnswer=false;
-    this.hintsCount=0;
-    this.router.navigate(["/"+this.quizService.nextQuestionId()]);
+  onNextQuestion() {
+    this.showAnswer = false;
+    this.hintsCount = 0;
+    this.router.navigate(['/' + this.quizService.nextQuestionId()]);
   }
 }
