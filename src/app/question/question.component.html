@@ -1,5 +1,5 @@
 <div class="container">
-  <h1 class="my-4 text-secondary">{{ quiz?.question }}</h1>
+  <h1 class="my-4 text-secondary">{{ quiz.question }}</h1>
 
   <!-- Control display area (hints/answer) -->
   <div class="d-flex gap-2 justify-content-between justify-content-sm-end mb-4">
@@ -31,7 +31,7 @@
       }
     </div>
     } @if(showAnswer){
-    <p class="fs-4">{{ quiz?.answer }}</p>
+    <p class="fs-4">{{ quiz.answer }}</p>
     }
     <button (click)="onNextQuestion()" class="btn btn-outline-primary">
       Next Question

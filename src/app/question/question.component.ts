@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, Input} from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { QuizService } from '../quiz.service';
 import { Quiz } from '../models/quiz';
