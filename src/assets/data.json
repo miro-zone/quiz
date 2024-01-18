@@ -306,5 +306,299 @@
         "answer": "This type is typical to gaseous dielectrics. In weak electric field the losses in gaseous practically are absent and tan 0.",
         "hints": ["This type is typical to what"],
         "image": ""
+    },
+    {
+        "id": 52,
+        "question": "What is the physical meaning of V break?",
+        "answer": "Minimal value of electric voltage at which the material punctures.",
+        "hints": ["Think about the minimum voltage causing material puncture."]
+    },
+    {
+        "id": 53,
+        "question": "What is the physical meaning of E break?",
+        "answer": "Minimal value of electric intensity at which the material punctures.",
+        "hints": ["Consider the minimal intensity causing material puncture."]
+    },
+    {
+        "id": 54,
+        "question": "What is the formula of dielectric strength?",
+        "answer": "Ebreak = vbreak/h.",
+        "hints": ["Recall the formula involving electric intensity and distance."]
+    },
+    {
+        "id": 55,
+        "question": "What is the condition of breakdown in gases?",
+        "answer": "Wk = Eqλ >= Wi",
+        "hints": ["Think about the breakdown condition involving specific parameters."]
+    },
+    {
+        "id": 56,
+        "question": "Describe the process of breakdown in gaseous dielectrics.",
+        "answer": "Electric field → particles move in the same direction",
+        "hints": ["Think about the direction of particle movement under an electric field."]
+    },
+    {
+        "id": 57,
+        "question": "Explain the dependence of dielectric strength of gas on pressure.",
+        "answer": "Dependence of dielectric strength on pressure.",
+        "hints": ["Consider how gas pressure affects dielectric strength."]
+    },
+    {
+        "id": 58,
+        "question": "When can the electric field be uniform depending on electrodes?",
+        "answer": "When = uniform electric field d < diameter uniform electric field",
+        "hints": ["Under what conditions does a uniform electric field occur?"]
+    },
+    {
+        "id": 59,
+        "question": "When can the electric field be non-uniform depending on electrodes?",
+        "answer": "When = non-uniform electric field",
+        "hints": ["Under what conditions does a non-uniform electric field occur?"]
+    },
+    {
+        "id": 60,
+        "question": "Why does breakdown voltage for a negative point of electrode take place at high voltage?",
+        "answer": "Positive ions shell forms around the point - (+) and (-)",
+        "hints": ["Consider the formation of positive ions around a negative electrode."]
+    },
+    {
+        "id": 61,
+        "question": "Why does breakdown voltage for a positive point of electrode take place at low voltage?",
+        "answer": "Space charge serves as an extension of the point which shortens the discharge gap - (+)",
+        "hints": ["Think about the role of space charge in shortening the discharge gap."]
+    },
+    {
+        "id": 62,
+        "question": "Explain the process of breakdown for the case of point and plain electrodes.",
+        "answer": "Non-uniform electric field, starts at point high voltage, prevents the movement to the plain",
+        "hints": ["Consider the characteristics of breakdown between point and plain electrodes."]
+    },
+    {
+        "id": 63,
+        "question": "Explain the process of breakdown for the case of two spheres electrodes.",
+        "answer": "Breakdown occurs instantly, uniform electric field, high voltage Sparks → arc if V↑",
+        "hints": ["Think about the instant breakdown and conditions for two spheres electrodes."]
+    },
+    {
+        "id": 64,
+        "question": "Draw the dependence of breakdown voltage on distance between two electrodes for gaseous dielectrics.",
+        "answer": "Graph illustrating the relationship between breakdown voltage and distance in gaseous dielectrics.",
+        "hints": ["Visualize the relationship between breakdown voltage and distance in gaseous dielectrics."]
+    },
+    {
+        "id": 65,
+        "question": "Draw the dependence of dielectric strength on distance between two electrodes for gaseous dielectrics.",
+        "answer": "Graph illustrating the relationship between dielectric strength and distance in gaseous dielectrics.",
+        "hints": ["Visualize the relationship between dielectric strength and distance in gaseous dielectrics."]
+    },
+    {
+        "id": 66,
+        "question": "When can electrical breakdown take place in liquid dielectrics?",
+        "answer": "Pure liquid dielectrics",
+        "hints": ["Consider the conditions for electrical breakdown in liquid dielectrics."]
+    },
+    {
+        "id": 67,
+        "question": "When can thermal breakdown take place in liquid dielectrics?",
+        "answer": "Maximum impurities, which are water gases and solid particles",
+        "hints": ["Think about the conditions leading to thermal breakdown in liquid dielectrics."]
+    },
+    {
+        "id": 68,
+        "question": "Describe the process of electrical breakdown in liquid dielectrics.",
+        "answer": "High field strength → emission of electrons from surface of metal electrodes...",
+        "hints": ["Consider the steps involved in electrical breakdown in liquid dielectrics."]
+    },
+    {
+        "id": 69,
+        "question": "Describe the process of thermal breakdown in liquid dielectrics.",
+        "answer": "Cause local overheating., which leads to the formation of gaseous channels between the electrodes.",
+        "hints": ["Think about the consequences of local overheating in thermal breakdown."]
+    },
+    {
+        "id": 70,
+        "question": "How many kinds of breakdown are there in solid dielectrics?",
+        "answer": "4 kinds 1- electrical breakdown in microscopically homogeneous dielectrics. 2- electric breakdown in heterogeneous dielectrics. 3-thermal (electrothermal) breakdown. 4-electrochemical breakdown.",
+        "hints": ["Consider the various types of breakdown in solid dielectrics."]
+    },
+    {
+        "id": 71,
+        "question": "Explain electrical breakdown in homogenous solid dielectrics.",
+        "answer": "Material doesn't dissipate energy, develops quickly purely electronic process / character. Takes place without dielectric loss",
+        "hints": ["Consider the characteristics of electrical breakdown in homogeneous solid dielectrics."]
+    },
+    {
+        "id": 72,
+        "question": "Explain electrical breakdown in heterogeneous solid dielectrics.",
+        "answer": "Electronic character , develops quickly, has energy dissipated.",
+        "hints": ["Consider the characteristics of electrical breakdown in heterogeneous solid dielectrics."]
+    },
+    {
+        "id": 73,
+        "question": "Explain thermal breakdown in solid dielectrics.",
+        "answer": "Pa = Q conditioned by violation of thermal balance in material Pa = V^2 w ctan§",
+        "hints": ["Consider the conditions leading to thermal breakdown in solid dielectrics."]
+    },
+    {
+        "id": 74,
+        "question": "Explain chemical breakdown in solid dielectrics.",
+        "answer": "Develops slowly, high humidity & temp. of air. 'Aging of dielectric in the elec. field'",
+        "hints": ["Consider the slow development and environmental conditions of chemical breakdown."]
+    },
+    {
+        "id": 75,
+        "question": "Draw the dependence of breakdown voltage on the thickness of the cable paper.",
+        "answer": "Graph illustrating the relationship between breakdown voltage and cable paper thickness.",
+        "hints": ["Visualize the relationship between breakdown voltage and cable paper thickness."]
+    },
+    {
+        "id": 76,
+        "question": "Draw the dependence of dielectric strength on the thickness of the cable paper.",
+        "answer": "Graph illustrating the relationship between dielectric strength and cable paper thickness.",
+        "hints": ["Visualize the relationship between dielectric strength and cable paper thickness."]
+    },
+    {
+        "id": 77,
+        "question": "What are the magnetic properties of materials conditioned by?",
+        "answer": "Intrinsic rotation of electron",
+        "hints": ["Consider the factor influencing the magnetic properties of materials."]
+    },
+    {
+        "id": 78,
+        "question": "When does spin magnetic moment take place?",
+        "answer": "Rotation of electron around its axes = spins moment",
+        "hints": ["Think about the conditions leading to spin magnetic moment."]
+    },
+    {
+        "id": 79,
+        "question": "When does orbital magnetic moment take place?",
+        "answer": "Orbital revolution of electrons in atom = orbital magnetic moment",
+        "hints": ["Think about the conditions leading to orbital magnetic moment."]
+    },
+    {
+        "id": 80,
+        "question": "How many types of magnetic materials are there?",
+        "answer": "5 types – Diamagnetic – Paramagnetic – Ferromagnetic – Ferrimagnetic",
+        "hints": ["Consider the various types of magnetic materials."]
+    },
+    {
+        "id": 81,
+        "question": "Why are dia-, para- and antifero-magnetic materials considered to be weak magnetic materials?",
+        "answer": "Because Bi M tan SM doesn't depend on f, h, t°C",
+        "hints": ["Consider the factors affecting the strength of magnetic materials."]
+    },
+    {
+        "id": 82,
+        "question": "Why are ferromagnetic materials and ferrites considered to be strong magnetic materials?",
+        "answer": "B M tan S depends on h, t°C, f",
+        "hints": ["Consider the factors making ferromagnetic materials strong in magnetism."]
+    },
+    {
+        "id": 83,
+        "question": "Draw the value of on temperature.",
+        "answer": "Graph illustrating the value of on temperature.",
+        "hints": ["Visualize the value change with temperature on a graph."]
+    },
+    {
+        "id": 84,
+        "question": "What are ferromagnetic materials transformed into above θk temperature?",
+        "answer": "Domain structure disappears materials → paramagnetic materials",
+        "hints": ["Consider the transformation of ferromagnetic materials above a certain temperature."]
+    },
+    {
+        "id": 85,
+        "question": "When do the ferromagnetic materials become paramagnetic?",
+        "answer": "Above Curie temperature",
+        "hints": ["Consider the conditions leading to the transition from ferromagnetic to paramagnetic."]
+    },
+    {
+        "id": 86,
+        "question": "What process occurs above θk point?",
+        "answer": "Domain structure disappears",
+        "hints": ["Think about the changes in domain structure above a specific temperature."]
+    },
+    {
+        "id": 87,
+        "question": "What is the physical meaning of TKu?",
+        "answer": "Temp. coefficient of permeability Shows relative change of M when temp. ↑by 1°C",
+        "hints": ["Consider the physical meaning of the temperature coefficient of permeability."]
+    },
+    {
+        "id": 88,
+        "question": "What is the basic magnetic curve?",
+        "answer": "Graph illustrating the basic magnetic curve.",
+        "hints": ["Visualize the fundamental magnetic curve on a graph."]
+    },
+    {
+        "id": 89,
+        "question": "What is the general formula of ferrites?",
+        "answer": "Meo. Fe2O3 which have very high value of P",
+        "hints": ["Recall the general formula involving metal oxide for ferrites."]
+    },
+    {
+        "id": 90,
+        "question": "Where are ferrites used and why?",
+        "answer": "At high frequency of the applied magnetic field, as these materials have very high resistivity",
+        "hints": ["Consider the specific applications of ferrites and their unique property."]
+    },
+    {
+        "id": 91,
+        "question": "How many kinds of ferromagnetic materials are there?",
+        "answer": "Fe, Ni, Co",
+        "hints": ["Recall the various ferromagnetic materials."]
+    },
+    {
+        "id": 92,
+        "question": "What is the difference between ferromagnetic materials and ferrites?",
+        "answer": "Ferromagnetic: material (Fe, Ni, co) these materials are used at Low applied magnetic Fields ferrit: are not natural materials this materials have very high p are used at high frequency at very high magnetic field.",
+        "hints": ["Distinguish between natural ferromagnetic materials and ferrites in terms of applications."]
+    },
+    {
+        "id": 93,
+        "question": "Which materials are called soft magnetic materials?",
+        "answer": "The material with Low coercive He and high M",
+        "hints": ["Consider the characteristics of materials classified as soft magnetic."]
+    },
+    {
+        "id": 94,
+        "question": "Which materials are called hard magnetic materials?",
+        "answer": "The material with high coercive He and Low M",
+        "hints": ["Consider the characteristics of materials classified as hard magnetic."]
+    },
+    {
+        "id": 95,
+        "question": "How many kinds of magnetic losses are there?",
+        "answer": "P total = Ph + Padd +Peddy",
+        "hints": ["Recall the types of losses contributing to total magnetic losses."]
+    },
+    {
+        "id": 96,
+        "question": "Why are eddy losses more dangerous than hysteresis losses?",
+        "answer": "Ph - depends on first. power frequency Peddy- depends on second power Frequency",
+        "hints": ["Consider the factors making eddy losses more dangerous than hysteresis losses."]
+    },
+    {
+        "id": 97,
+        "question": "Why are ferrites used at high frequency magnetic fields?",
+        "answer": "Because ferrit have very high resistance.",
+        "hints": ["Consider the specific property of ferrites making them suitable for high-frequency magnetic fields."]
+    },
+    {
+        "id": 98,
+        "question": "What is the physical meaning of spontaneous magnetization?",
+        "answer": "Fe, Ni, Co are ferromagnetic materials and have very high magnetic constant M because if the magnetic field is absent, these materials are already magnetized under the influence of the magnetic field domain. Starts to move in the direction of the magnetic field, causing strong magnetic field. M <1000. This is called spontaneous magnetization.",
+        "hints": ["Consider the behavior of ferromagnetic materials in the absence of a magnetic field."]
+    },
+    {
+        "id": 99,
+        "question": "Why does M depending on frequency decrease?",
+        "answer": "The value of M depending on frequency because the domain doesn’t have time to keep up with field variation.",
+        "hints": ["Think about how the frequency affects the responsiveness of magnetic domains."]
+    },
+    {
+        "id": 100,
+        "question": "What is the surface of hysteresis loops equal to?",
+        "answer": "Surface of hysteresis loop = Ph (hysteresis losses)",
+        "hints": ["Consider the significance of the surface area of hysteresis loops."]
     }
 ]

@@ -1,0 +1,12 @@
+@if(currentIndex<0){
+
+<div class="container d-flex justify-content-center align-items-center h-100">
+  <div class="text-center">
+    <h1>Collection of questions</h1>
+    <button (click)="onStartQuiz()" class="btn btn-success w-50">Start</button>
+  </div>
+</div>
+
+}@else {
+  <app-question [quiz]="quizes[currentIndex]"></app-question>
+}
