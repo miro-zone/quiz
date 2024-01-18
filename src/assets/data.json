@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "question": "What is polarization?",
+        "answer": "Limited displacement of bound charges of dipole molecules.",
+        "hints": ["Bound charges"],
+        "image": ""
+    },
+    {
+        "id": 2,
+        "question": "What process takes place in a dielectric when exposed to an electric field?",
+        "answer": "Process of polarization takes place in any dielectric under the influence of an electric field.",
+        "hints": ["Process of ... "],
+        "image": ""
+    },
+    {
+        "id": 3,
+        "question": "How many kinds of dielectric materials are there?",
+        "answer": "Solid/Bound, liquid, gaseous. Polar and non-polar.",
+        "hints": ["The thing and it's opposite"],
+        "image": ""
+    },
+    {
+        "id": 4,
+        "question": "What is the difference between polar and non-polar dielectrics?",
+        "answer": "Polar - contains dipole molecules/charges. Non-polar - contains neutral molecules/charges.",
+        "hints": ["Type of molecules"],
+        "image": ""
+    },
+    {
+        "id": 5,
+        "question": "What is the physical meaning of E - the relative dielectric constant?",
+        "answer": "Shows how many times the quality of electric charges on the electrodes changes.",
+        "hints": ["How many times something changes"],
+        "image": ""
+    },
+    {
+        "id": 6,
+        "question": "Can the value of E be equal to 0?",
+        "answer": "No, it can't.",
+        "hints": ["Yes or no"],
+        "image": ""
+    },
+    {
+        "id": 7,
+        "question": "When can E be equal to 1?",
+        "answer": "E=1 in a vacuum.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 8,
+        "question": "What is the value of E of non-polar dielectrics?",
+        "answer": "E<3.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 9,
+        "question": "What is the value of E of polar dielectrics?",
+        "answer": "E>3.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 10,
+        "question": "How many kinds of polarization are there?",
+        "answer": "Instant and relaxation polarization.",
+        "hints": ["2 kinds"],
+        "image": ""
+    },
+    {
+        "id": 11,
+        "question": "What is the difference between instant and relaxation polarization?",
+        "answer": "Instant: occurs instantly, without energy dissipation and heat evolution in the dielectric. Relaxation: does not occur instantly. It takes place slowly with energy dissipation and heat evolution at which the material can heat up.",
+        "hints": ["One occurs instantly and the other dosn't"],
+        "image": ""
+    },
+    {
+        "id": 12,
+        "question": "Describe the types of relaxation polarization?",
+        "answer": "Relaxation - conditioned by the orientation of dipole molecules in the field direction. Spontaneous - takes place in materials which have domain structure.",
+        "hints": ["Conditioned by orientation / domain structure"],
+        "image": ""
+    },
+    {
+        "id": 13,
+        "question": "Describe the types of instant polarization?",
+        "answer": "Electronic - deformation of the electronic orbit of atoms. Ionic - typical to solid dielectrics with ionic structures. Displacement of elastic bound charges.",
+        "hints": ["Orbit of atoms / typical to solid dielectrics"],
+        "image": ""
+    },
+    {
+        "id": 16,
+        "question": "What is the physical meaning of absorption current?",
+        "answer": "Conditioned by the process of polarization which has a slow-acting mechanism.",
+        "hints": ["Slow acting mechanism"],
+        "image": ""
+    },
+    {
+        "id": 17,
+        "question": "What is the physical meaning of leakage current?",
+        "answer": "Conditioned by mixed ions presence of a small number of free charges in the dielectric results in a small current.",
+        "hints": ["Mixed ions presence"],
+        "image": ""
+    },
+    {
+        "id": 18,
+        "question": "How many kinds of current flow through the dielectric?",
+        "answer": "Absorption & Leakage Currents.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 20,
+        "question": "What current is the resistance of the dielectric measured by?",
+        "answer": "Resistance can be determined by leakage current.",
+        "hints": ["The current conditioned by mixed ions presence"],
+        "image": ""
+    },
+    {
+        "id": 21,
+        "question": "Why is it necessary to measure the resistance of dielectrics at constant electric field?",
+        "answer": "Necessary to measure at constant voltage, after 1 min. the process of polarization sets up absorption current → 0, which leaves us with leakage current.",
+        "hints": ["A process that happen after 1 min","What does the process of polarization set up to"],
+        "image": ""
+    },
+    {
+        "id": 22,
+        "question": "Write down the formula of the total resistance of dielectrics.",
+        "answer": "Rins = Rv*Rs/Rv+Rs.",
+        "hints": ["multiplication / division"],
+        "image": ""
+    },
+    {
+        "id": 23,
+        "question": "What is the physical meaning of Pv?",
+        "answer": "Necessary to know the value to compare the quality of different dielectric. In the Si system, Pv = R of 1m^3 of material when the current flows between the opposite face of the cube.",
+        "hints": ["Why it is necessary","Where does the current flow to"],
+        "image": ""
+    },
+    {
+        "id": 24,
+        "question": "What is the physical meaning of Ps?",
+        "answer": "Between the opposite edges of a square of any size Surface of a material.",
+        "hints": ["Surface of a material"],
+        "image": ""
+    },
+    {
+        "id": 25,
+        "question": "What are the measure units of Rv; Rs; Pv; Ps?",
+        "answer": "Rv, Rs, Ps = ohm. Pv = ohm*m.",
+        "hints": ["Pv is different"],
+        "image": ""
+    },
+    {
+        "id": 26,
+        "question": "Can Rv & Rs be measured within two electrodes?",
+        "answer": "Rv & Rs cannot be measured with 2 electrodes. Total resistance of the test material can be measured with 2 electrodes.",
+        "hints": ["What can be measured with 2 electrodes"],
+        "image": ""
+    },
+    {
+        "id": 27,
+        "question": "Why is it necessary to measure Rv & Rs within three electrodes?",
+        "answer": "Rv & Rs require 3 electrodes to be measured because, dependence of Rv, Rs on voltage separately.",
+        "hints": ["Dependence of Rv and Rs on somthing separately"],
+        "image": ""
+    },
+    {
+        "id": 28,
+        "question": "Can Rv, Rs be measured at variable electric field?",
+        "answer": "Rv, Rs cannot be measured at variable voltage. Rv, Rs can be measured on constant voltage because the process of polarization can’t set up, and this process takes place in material as long as the electric field is applied.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 29,
+        "question": "Why is it necessary to know the value of Pv of dielectrics?",
+        "answer": "With Pv, we can compare the quality of dielectric materials.",
+        "hints": ["Comparing"],
+        "image": ""
+    },
+    {
+        "id": 30,
+        "question": "What is the dependence of the dielectric quality on the value of resistivity?",
+        "answer": "Resistivity (ρ) the better insulator / better quality of material.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 31,
+        "question": "What is the physical meaning of dielectric losses?",
+        "answer": "Dielectric is under the influence of the electric field, dielectric loss power dissipates due to heat.",
+        "hints": ["Dielectric is under the influence of what"],
+        "image": ""
+    },
+    {
+        "id": 32,
+        "question": "What is the role of dielectric loss angle tan?",
+        "answer": "It completes up to 90°.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 33,
+        "question": "What does the angle 𝓵 show?",
+        "answer": "Phase displacement between current and voltage.",
+        "hints": ["Phase displacement"],
+        "image": ""
+    },
+    {
+        "id": 34,
+        "question": "When can phase angle 𝓵 be equal to 90 degrees?",
+        "answer": "Only in ideal dielectrics.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 35,
+        "question": "When can phase angle 𝓵 be equal to 0?",
+        "answer": "Moment of resonance.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 38,
+        "question": "Write down the formula of the power of dielectric losses in a variable electric field.",
+        "answer": "Pa = V^2*omega*C*tanS.",
+        "hints": ["The longer version"],
+        "image": ""
+    },
+    {
+        "id": 39,
+        "question": "Write down the formula of the power of dielectric losses in a constant electric field.",
+        "answer": "Pa = V^2/Rins.",
+        "hints": ["The smaller version"],
+        "image": ""
+    },
+    {
+        "id": 40,
+        "question": "What are the reasons which cause dielectric losses?",
+        "answer": "Polarization, conductivity ionization, structure heterogeneity.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 41,
+        "question": "How many kinds of dielectric losses are there?",
+        "answer": "Polarization, conductivity ionization, structure heterogeneity.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 44,
+        "question": "What circuit is used to measure E, tgs at high frequency?",
+        "answer": "Resonant or calibration.",
+        "hints": [],
+        "image": ""
+    },
+    {
+        "id": 45,
+        "question": "Why is the electrical circuit called a resonance or calibration circuit?",
+        "answer": "Because this circuit contains R resistance, 𝓵 coil, and C capacitor.",
+        "hints": ["3 things"],
+        "image": ""
+    },
+    {
+        "id": 46,
+        "question": "Conduction in dielectrics",
+        "answer": "Basic concepts leakage and absorption currents explanations",
+        "hints": ["currents"],
+        "image": ""
+    },
+    {
+        "id": 47,
+        "question": "Conduction in gases",
+        "answer": "Weak electric field: conduction in gases is conditioned by external factors that cause gas ionization, gaseous conduction in this case is called extrinsic. strong electric field: conduction in gases is conditioned by collison ionization , gaseous conduction gaseous conduction caused by collision ionization is called intrinsic",
+        "hints": ["Weak electric field and strong electric field"],
+        "image": ""
+    },
+    {
+        "id": 48,
+        "question": "Conduction in liquid",
+        "answer": "non polar: depends on dissociated impurities. Polar: conditioned not only by presence of impurities but also by dissociation of the liquid molecules",
+        "hints": ["Polar / non polar"],
+        "image": ""
+    },
+    {
+        "id": 49,
+        "question": "Conduction in solid dielectrics",
+        "answer": "Conduction in solid dielectrics depends on the structure of material. In solid dielectrics of ionic structure conduction is conditioned by displacement of ions.",
+        "hints": [""],
+        "image": ""
+    },
+    {
+        "id": 50,
+        "question": "Dielectric loss due to leakage current",
+        "answer": "Leakage loss occurs in dielectrics with high conduction. Depending on the temperature the leakage loss increases",
+        "hints": ["Occurs with low or high conduction"],
+        "image": ""
+    },
+    {
+        "id": 51,
+        "question": "Dielectric loss due to ionization",
+        "answer": "This type is typical to gaseous dielectrics. In weak electric field the losses in gaseous practically are absent and tan 0.",
+        "hints": ["This type is typical to what"],
+        "image": ""
+    }
+]

@@ -1,0 +1,45 @@
+<div class="container">
+  <h1 class="my-4 text-secondary">{{ quiz?.question }}</h1>
+
+  <!-- Control display area (hints/answer) -->
+  <div class="d-flex gap-2 justify-content-between justify-content-sm-end mb-4">
+    <button
+      [disabled]="showAnswer"
+      (click)="showAnswer = true"
+      class="btn btn-success"
+    >
+      Answer
+    </button>
+    <button (click)="hintsCount=hintsCount+1" class="btn btn-warning" [disabled]="!isAvailableHint()">
+      Hints
+    </button>
+  </div>
+
+  <!-- Display hints or answer -->
+  <div
+    class="d-flex flex-column justify-content-between align-items-center"
+    [ngStyle]="{ height: '20rem' }"
+  >
+    @if(hintsCount){
+    <div class="p-3">@for (hint of hints; track $index) {
+      <p>{{hint}}</p>   
+    }</div>
+    }
+     @if(showAnswer){
+    <p class="fs-4">{{ quiz?.answer }}</p>
+    }
+    <button (click)="onNextQuestion()" class="btn btn-outline-primary">
+      Next Question
+    </button>
+  </div>
+
+  <!-- Related links area -->
+  <footer>
+    <h2 class="text-secondary">Related questions</h2>
+    <div class="row">
+      <button class="btn col-md-3 col-xs-12">question1</button>
+      <button class="btn col-md-3 col-xs-12">question2</button>
+      <button class="btn col-md-3 col-xs-12">question3</button>
+    </div>
+  </footer>
+</div>
