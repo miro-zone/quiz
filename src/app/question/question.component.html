@@ -41,11 +41,9 @@
   <!-- Related links area -->
   <footer>
     <h2 class="text-secondary">Related questions</h2>
-    @for (rq of relatedQuizes; track $index) {
-    <div class="d-flex flex-column">
-      <a class="mb-2" [routerLink]="'/'+rq.id?.toString()">{{
-        rq.question.split(" ").slice(0, 5).join(" ")
-      }} ...</a>
+    @for (rq of relatedQuizzes; track $index) {
+    <div class="d-flex flex-column align-items-center">
+      <button class="mb-2 btn btn-link" (click)="onRelated(rq)"> {{ rq.question.split(" ").slice(0, 5).join(" ")}} ...</button>
     </div>
     }
   </footer>

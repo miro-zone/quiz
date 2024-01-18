@@ -29,7 +29,4 @@ ngOnInit(): void {
     this.quizes = [...this.quizService.loadedQuizzes];
     this.currentIndex=0
   }
-
-  
-  
 }

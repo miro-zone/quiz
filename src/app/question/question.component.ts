@@ -3,7 +3,6 @@ import { Component, Input, OnInit, Output } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { QuizService } from '../quiz.service';
 import { Quiz } from '../models/quiz';
-import { EventEmitter } from 'stream';
 
 @Component({
   selector: 'app-question',
@@ -16,16 +15,22 @@ export class QuestionComponent   {
 
   showAnswer = false;
   hintsCount = 0;
-  relatedQuizes: Quiz[] = [];
   constructor(
     private readonly quizService: QuizService
   ) {}
 
-  
+ get relatedQuizzes(){
+  return this.quizService.getRelatedQuizzes(this.quiz.id||1);
+ } 
 
   get hints(): string[] {
     if (!this.quiz) return [];
     return this.quiz.hints.slice(0, this.hintsCount);
+  }
+  onRelated(relatedQuiz:Quiz){
+    this.hintsCount=0;
+    this.showAnswer=false;
+    this.quiz = relatedQuiz;
   }
 
   isAvailableHint() {

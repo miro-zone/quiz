@@ -600,5 +600,29 @@
         "question": "What is the surface of hysteresis loops equal to?",
         "answer": "Surface of hysteresis loop = Ph (hysteresis losses)",
         "hints": ["Consider the significance of the surface area of hysteresis loops."]
-    }
+    },
+    {
+        "id": 101,
+        "question": "diamagnetic materials?",
+        "answer": "for these materials µ < 1 its value doesn’t depend on the strength of the external electric field the following material considered to diamagnetic silver gold mercury",
+        "hints": ["µ < 1", "value independent of external electric field", "silver, gold, mercury"]
+      },
+      {
+        "id": 102,
+        "question": "paramagnetic materials?",
+        "answer": "these are substance whose µ > 1 and doesn’t depend on the strength of the external electric field the following material considered to paramagnetic Ca, Cr, Mo",
+        "hints": ["µ > 1", "value independent of external electric field", "Ca, Cr, Mo"]
+      },
+      {
+        "id": 103,
+        "question": "ferromagnetic materials?",
+        "answer": "for these materials its Fe, Ni < co and has low applied magnetic field this materials depend on temperature above curie point and µ > 1000",
+        "hints": ["Fe, Ni < co", "low applied magnetic field", "depend on temperature above curie point", "µ > 1000"]
+      },
+      {
+        "id": 104,
+        "question": "ferrimagnetic materials?",
+        "answer": "these are not natural materials they are used at high frequency of the applied magnetic field and have very high resistivity p",
+        "hints": ["not natural materials", "used at high frequency of applied magnetic field", "very high resistivity p"]
+      }
 ]
